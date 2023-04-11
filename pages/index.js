@@ -105,7 +105,7 @@ const App = () => {
             role: "user",
             content:
               `Q: ${inputField}. Formulate a assistants answer to the user, the response from the api was:` +
-              newResponseData +
+              newResponse +
               "A:",
           },
         ],
