@@ -17,7 +17,8 @@ The user provides a URL that points to a JSON file containing API plugin informa
 - Run the prompt and network request to fetch information from the API
 - Display the models's response based on the fetched data
 
-You can use OpenAI's QQuickstart plugin for testing: https://github.com/openai/plugins-quickstart
+You can use OpenAI's Quickstart plugin for testing: https://github.com/openai/plugins-quickstart
+
 ---
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
