@@ -2,7 +2,7 @@
 
 [llm-plugin-tester.vercel.app/](https://llm-plugin-tester.vercel.app/)
 
-This is a simple Nextjs application that demonstrates how a PLugins System can interact with external APIs. The model helps users with their questions, by makeing requests to the APIs, based on user inputs.
+This is a simple Nextjs application that demonstrates how a plugins system can interact with external APIs. The model helps users with their questions, by makeing requests to the APIs, based on user inputs.
 The user provides a URL that points to a JSON file containing API plugin information. The JSON file should have the [following structure](https://platform.openai.com/docs/plugins/getting-started/plugin-manifest)
 
 ![image](https://user-images.githubusercontent.com/64021988/231303548-b25c99ca-bbce-49b8-bbf4-a3b81e59eb9f.png)
