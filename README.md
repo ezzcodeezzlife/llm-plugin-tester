@@ -21,7 +21,7 @@ The user provides a URL that points to a JSON file containing API plugin informa
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+## Local development
 
 First, run the development server:
 
