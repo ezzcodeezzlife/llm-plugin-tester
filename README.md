@@ -1,9 +1,27 @@
+# llm-plugin-tester
+
 [llm-plugin-tester.vercel.app/](https://llm-plugin-tester.vercel.app/)
+
+This is a simple Nextjs application that demonstrates how a PLugins System can interact with external APIs. The model helps users with their questions, by makeing requests to the APIs, based on user inputs.
+The user provides a URL that points to a JSON file containing API plugin information. The JSON file should have the [following structure](https://platform.openai.com/docs/plugins/getting-started/plugin-manifest)
+
+![image](https://user-images.githubusercontent.com/64021988/231303548-b25c99ca-bbce-49b8-bbf4-a3b81e59eb9f.png)
+
+## Features
+
+- Add Plugins by providing a URL like `http://yourdomain/.well-known/ai-plugin.json`
+- Manage API plugins (add, remove, view YAML)
+- Enter OpenAI API Key
+- Enter a user input/query 
+- See the full prompt that will be sent to the model "behind the scenes"
+- Run the prompt and network request to fetch information from the API
+- Display the models's response based on the fetched data
+
 ---
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+## Local development
 
 First, run the development server:
 
