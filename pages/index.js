@@ -96,7 +96,7 @@ const App = () => {
 
       const newResponse = await fetch(jsonObject.url, requestOptions);
 
-      const newResponseData = await newResponse.json();
+      //const newResponseData = await newResponse.json();
 
       const requestBody2 = {
         model: "gpt-3.5-turbo",
